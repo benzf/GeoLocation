@@ -56,6 +56,9 @@ export class AppComponent {
       alert("Geolocation is not supported by this browser.");
     }
   }
+  
+  findMe(){
+  }
 
   showTrackingPosition(position) {
     console.log(`tracking postion:  ${position.coords.latitude} - ${position.coords.longitude}`);
